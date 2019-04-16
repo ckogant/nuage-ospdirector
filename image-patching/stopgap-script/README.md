@@ -2,11 +2,11 @@ Steps:
 
 Clone this repo onto the machine that is accessible to the nuage-rpms repo and make sure the machine also has libguestfs-tools installed.
 
-yum install libguestfs-tools -y
-git clone https://github.com/nuagenetworks/nuage-ospdirector.git
-cd nuage-ospdirector
-git checkout OSPD13_VRS_offload
-cd image-patching/stopgap-script/ 
+yum install libguestfs-tools -y   
+git clone https://github.com/nuagenetworks/nuage-ospdirector.git    
+cd nuage-ospdirector   
+git checkout OSPD13_VRS_offload   
+cd image-patching/stopgap-script/    
 
 Copy the overcloud-full.qcow2 from undercloud-director /home/stack/images/ to this location and make a backup of overcloud-full.qcow2
 
