@@ -6,7 +6,8 @@ yum install libguestfs-tools -y
 git clone https://github.com/nuagenetworks/nuage-ospdirector.git
 cd nuage-ospdirector
 git checkout OSPD13_VRS_offload
-cd image-patching/stopgap-script/
+cd image-patching/stopgap-script/ 
+
 Copy the overcloud-full.qcow2 from undercloud-director /home/stack/images/ to this location and make a backup of overcloud-full.qcow2
 
 cp overcloud-full.qcow2 overcloud-full-bk.qcow2
